@@ -7,7 +7,7 @@ Fisierul de intrare contine cate un cuvant pe fiecare linie.
 Proiectul este scris in Java, foloseste Maven si este structurat in clase separate pentru a asigura claritate si modularitate. Asemenea structura respecta principiul Single Responsability si ofera o mai mare flexibilitate, permitand eventuale modificari si extinderi, astfel incat sa nu fie nevoie de a schimba intregul cod.
 
 Clasele proiectului:
-  - Main.java - logica principala a aplicatiei
+  - Main.java - asigura initializarile si afiseaza rezultatul
   - WordReader - clasa responsabila de citirea cuvintelor, in cazul de fata - citire din fisier linie cu linie (prin adaugarea de noi metode, se pot implementa diferite tipuri de citire)
   - AnagramFinder - grupeaza cuvintele care sunt anagrame, pe baza sortarii literelor din cuvant
 
