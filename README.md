@@ -15,11 +15,11 @@ Clasele proiectului:
   - Fisierele claselor sunt in directorul src/main/java, in pachetul org.example, singurul folosit, fiind o aplicatie foarte mica.
   - Fisierul text "sample.txt", care contine cuvintele de input, se gaseste in directorul src/main/resources. Cuvintele trebuie sa fie in format **un cuvant pe linie**.
 
-##Compilare si rulare
+## Compilare si rulare
 Proiectul poate fi compilat si rulat a) direct din IDE sau b) dintr-un terminal in directoul proiectului prin intermediul comenzilor:
   - mvn clean compile
   - mvn exec:java -Dexec.mainClass="org.example.Main"
 
 Configuratie:
-SDK - 21
-Language level - 21
+- SDK - 21
+- Language level - 21
