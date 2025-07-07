@@ -17,8 +17,9 @@ Clasele proiectului:
 
 ##Compilare si rulare
 Proiectul poate fi compilat si rulat a) direct din IDE sau b) dintr-un terminal in directoul proiectului prin intermediul comenzilor:
-  mvn clean compile
-  mvn exec:java -Dexec.mainClass="org.example.Main"
+  - mvn clean compile
+  apoi
+  - mvn exec:java -Dexec.mainClass="org.example.Main"
 
 Configuratie:
 SDK - 21
